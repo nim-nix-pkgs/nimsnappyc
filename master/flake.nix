@@ -11,6 +11,7 @@
   inputs.src-nimsnappyc-master.ref   = "refs/heads/master";
   inputs.src-nimsnappyc-master.owner = "NimCompression";
   inputs.src-nimsnappyc-master.repo  = "nimsnappyc";
+  inputs.src-nimsnappyc-master.dir   = "";
   inputs.src-nimsnappyc-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
